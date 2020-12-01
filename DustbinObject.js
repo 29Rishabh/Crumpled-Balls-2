@@ -6,7 +6,7 @@ class dustbinObject{
         this.body=Bodies.rectangle(x,y,width,height,dustbin_options);
         this.width=width;
         this.height=height;
-        this.image=loadImage("sprites/dustbingreen.png");
+        this.image=loadImage("dustbingreen.png");
         World.add(world,this.body);
     }
     display(){
